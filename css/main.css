@@ -23,7 +23,7 @@ body{
 }
 
 .panel-1{
-  width: 10%;
+  width: 5%;
   height: 90vh;
   background: url('../images/flower-purple-lical-blosso.jpg');
   background-position: center;
@@ -33,7 +33,7 @@ body{
 
 }
 .panel-2{
-  width: 20%;
+  width: 15%;
   height: 98vh;
   background: url('../images/pexels-photo-144339.jpeg');
   background-position: center;
@@ -43,7 +43,7 @@ body{
 }
 .panel-3{
   height: 100vh;
-  width: 40%;
+  width: 60%;
   background: url('../images/door-green-closed-lock.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -51,7 +51,7 @@ body{
   /*align-self:center;*/
 }
 .panel-4{
-  width: 20%;
+  width: 15%;
   height: 98vh;
   background: url('../images/wood-sea-landscape-nature.jpg');
   background-position: center;
@@ -61,7 +61,7 @@ body{
 
 }
 .panel-5{
-  width: 10%;
+  width: 5%;
   height: 90vh;
   background: url('../images/pexels-photo-173523.jpeg');
   background-position: center;
