@@ -13,6 +13,7 @@ body{
 .app-container{
   display: flex;
   height: 100vh;
+  justify-content: center;
 }
 
 .panel{
@@ -23,51 +24,62 @@ body{
 }
 
 .panel-1{
-  width: 5%;
-  height: 90vh;
+  z-index: 10;
+  /*position: relative;*/
+  margin-right: -20px;
+  width: 10%;
+  height: 88vh;
   background: url('../images/flower-purple-lical-blosso.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transform: skew(0deg, -10deg);
+  transform: skew(0deg, 15deg)rotate3d(0,1,0,15deg);
 
 }
 .panel-2{
-  width: 15%;
-  height: 98vh;
+  z-index: 50;
+  margin-right: -30px;
+  width: 20%;
+  height: 95vh;
   background: url('../images/pexels-photo-144339.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transform: skew(0deg, -5deg);
+  /*transform: rotate3d(0,1,0,60deg);*/
+  transform: skew(0deg, 10deg) rotate3d(0,1,0,10deg);
 }
 .panel-3{
   height: 100vh;
-  width: 60%;
+  width: 40%;
   background: url('../images/door-green-closed-lock.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 100;
   /*align-self:center;*/
 }
 .panel-4{
-  width: 15%;
-  height: 98vh;
+  z-index: 50;
+  margin-left: -30px;
+  width: 20%;
+  height: 95vh;
   background: url('../images/wood-sea-landscape-nature.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transform: skew(0deg, 5deg);
+  transform: skew(0deg, -10deg)rotate3d(0,1,0,-10deg);
 
 }
 .panel-5{
-  width: 5%;
-  height: 90vh;
+  z-index: 10;
+  margin-left: -20px;
+  width: 10%;
+  height: 88vh;
   background: url('../images/pexels-photo-173523.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transform: skew(0deg, 10deg);
+  transform: skew(0deg, -15deg)rotate3d(0,1,0,-15deg);
 
 }
 
