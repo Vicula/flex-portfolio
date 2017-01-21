@@ -1,12 +1,31 @@
 var element = document.querySelector('.app-container');
-var windowWidth = window.innerWidth;
-var windowHeight = window.innerHeight;
+
+var panel = document.querySelector('.panel-3');
+var panelShadow = document.querySelector('.shadow-current')
+
+var panelWidth = panel.offsetWidth
+var panelHeight = panel.offsetHeight
+
+
+
 var mouseFunc = function(e){
   // console.log(e)
 
-  console.log("X =" +(e.screenX/windowWidth)*100);
-  console.log("Y =" +(e.screenY/windowHeight)*100);
+  // console.log(e)s
+
+
+  panel.style.transform = "rotate3d(0,1,0,-25deg)"
+
+  console.log("X =" +(e.offsetX/panelWidth)*100);
+  console.log("Y =" +(e.offsetY/panelHeight)*100);
+
+
+  // let xPos = (e.screenX/windowWidth)*100
+
+
+
 }
 
 
-element.addEventListener('mousemove', mouseFunc)
+
+panel.addEventListener('mousemove', mouseFunc)
