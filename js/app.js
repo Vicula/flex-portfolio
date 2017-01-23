@@ -53,26 +53,40 @@ var tileOff = function(e){
 
     allPanel[i].children[0].className += " shadow-none"
     allPanel[i].className += " panel-normal"
+    element.className = "app-container"
 
   }
 }
 
 
 var statusSwitch = function(e){
-
-  if(isOn === false){
+  let daNumb =  e.target.classList[1].split("-")
+  if(element.className === "app-container"){
+    element.className = "app-container sel-" + daNumb[1]
     tileOn(e)
     isOn = true
-  } else {
+  } else if (element.className === "app-container sel-" + daNumb[1]){
     tileOff(e)
     isOn = false
-
+  } else {
+    element.className = "app-container sel-" + daNumb[1]
   }
-  // console.log(e)
+
+
+  // if(isOn === false){
+  //   tileOn(e)
+  //   isOn = true
+  // } else {
+  //   tileOff(e)
+  //   isOn = false
+  //
+  // }
+  // let daNumb =  e.target.classList[1].split("-")
+  // element.className = "app-container sel-" + daNumb
   //
   // console.log(allPanel)
 }
 
 
 
-panel.addEventListener('click', statusSwitch)
+element.addEventListener('click', statusSwitch)
