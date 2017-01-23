@@ -51,7 +51,7 @@ body{
 }
 .panel-3{
   height: 95vh;
-  width: 35%;
+  width: 40%;
   background: url('../images/door-green-closed-lock.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -97,4 +97,21 @@ body{
 .shadow-left{
   background: linear-gradient(to right, rgba(10,10,10,0.9) 20%, rgba(0,0,0,0) 60%);
 
+}
+
+.shadow-current{
+  height: 95vh;
+  width: 100%;
+  transition: 10s;
+}
+
+.panel-normal{
+  margin: 0;
+  transform: none;
+  width: 20%;
+  height: 100vh;
+}
+
+.shadow-none{
+  background: none;
 }
