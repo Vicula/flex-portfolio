@@ -53,7 +53,7 @@ var tileOff = function(e){
 
     allPanel[i].children[0].className += " shadow-none"
     allPanel[i].className += " panel-normal"
-    element.className = "app-container"
+    element.className = "app-container home"
 
   }
 }
@@ -61,7 +61,7 @@ var tileOff = function(e){
 
 var statusSwitch = function(e){
   let daNumb =  e.target.classList[1].split("-")
-  if(element.className === "app-container"){
+  if(element.className === "app-container home"){
     element.className = "app-container sel-" + daNumb[1]
     tileOn(e)
     isOn = true
@@ -72,19 +72,6 @@ var statusSwitch = function(e){
     element.className = "app-container sel-" + daNumb[1]
   }
 
-
-  // if(isOn === false){
-  //   tileOn(e)
-  //   isOn = true
-  // } else {
-  //   tileOff(e)
-  //   isOn = false
-  //
-  // }
-  // let daNumb =  e.target.classList[1].split("-")
-  // element.className = "app-container sel-" + daNumb
-  //
-  // console.log(allPanel)
 }
 
 
