@@ -27,7 +27,7 @@ body{
 .panel-1{
   z-index: 10;
   /*position: relative;*/
-  margin-right: -20px;
+  margin-right: -30px;
   width: 10%;
   height: 85vh;
   background: url('../images/flower-purple-lical-blosso.jpg');
@@ -52,9 +52,9 @@ body{
 .panel-3{
   height: 95vh;
   margin-left: -45px;
-  transition: 0.5s;
+  transition: 0.7s;
   margin-right: -45px;
-  width: 50%;
+  width: 55%;
   background: url('../images/door-green-closed-lock.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -77,7 +77,7 @@ body{
 }
 .panel-5{
   z-index: 10;
-  margin-left: -20px;
+  margin-left: -30px;
   width: 10%;
   height: 85vh;
   background: url('../images/pexels-photo-173523.jpeg');
