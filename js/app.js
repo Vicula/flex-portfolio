@@ -41,9 +41,8 @@ var mouseFunc = function(e){
 var tileOn = function(e){
   for (let i = 0; i < allPanel.length; i++){
     let newName = allPanel[i].classList[0] + " " + allPanel[i].classList[1]
-    // console.log(allPanel[i].children)
     let shaName = allPanel[i].children[0].classList[0] + " " + allPanel[i].children[0].classList[1]
-    // console.log(shaName)
+
     allPanel[i].children[0].className = shaName
     allPanel[i].className = newName
 
