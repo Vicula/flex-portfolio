@@ -50,7 +50,12 @@ var tileOn = function(e){
   }
 }
 var tileOff = function(e){
+  for (let i = 0; i < allPanel.length; i++){
 
+    allPanel[i].children[0].className += " shadow-none"
+    allPanel[i].className += " panel-normal"
+
+  }
 }
 
 
