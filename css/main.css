@@ -51,12 +51,14 @@ body{
 }
 .panel-3{
   height: 95vh;
+  margin-left: -10px;
+  margin-right: -10px;
   width: 40%;
   background: url('../images/door-green-closed-lock.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 100;
+  z-index: 10000;
   align-self:center;
 
 }
