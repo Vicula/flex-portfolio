@@ -80,20 +80,20 @@ body{
 .icon-2{
   position: relative;
   top: 40%;
-  font-size: 100px;
+  font-size: 8em;
   left:33%;
 }
 .icon-1{
   position: relative;
   top: 40%;
-  font-size: 100px;
+  font-size: 8em;
   left:33%;
 }
 
 .icon-3{
   position: relative;
   top: 40%;
-  font-size: 100px;
+  font-size: 8em;
   left:33%;
   /*color: #47c994;*/
   /*display: none;*/
