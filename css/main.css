@@ -18,6 +18,12 @@ body{
   justify-content: center;
 }
 
+.label{
+  display: none;
+  color: white;
+  font-size: 40px;
+}
+
 
 .panel{
   transition: 1s;
@@ -62,9 +68,6 @@ body{
   background-size: cover;
 }
 
-.home .panel-3:hover{
-  background: radial-gradient(circle at center, rgba(255,255,255,1), rgba(175,175,175,1) );
-}
 
 /*.panel-3:hover .icon-3{
   display: inherit;
@@ -81,17 +84,11 @@ body{
   display: none;
   animation: bounce 0.5s cubic-bezier(0.1, 0, 0.3, 1) infinite alternate;
 }*/
-.home .panel-2:hover{
+.home .panel:hover{
   background: radial-gradient(circle at center, rgba(255,255,255,1), rgba(175,175,175,1) );
 }
-.home .panel-4:hover{
-  background: radial-gradient(circle at center, rgba(255,255,255,1), rgba(175,175,175,1) );
-}
-.home .panel-1:hover{
-  background: radial-gradient(circle at center, rgba(255,255,255,1), rgba(175,175,175,1) );
-}
-.home .panel-5:hover{
-  background: radial-gradient(circle at center, rgba(255,255,255,1), rgba(175,175,175,1) );
+.home .panel-content{
+  display: none;
 }
 
 .sel-3 .panel-1{
@@ -254,7 +251,7 @@ body{
   height: 100vh;
 }
 .shadow-none{
-  background: none;
+  display: none;
 }
 
 
@@ -491,27 +488,17 @@ body{
 }
 
 .sel-1 .shadow-none{
-  background: none;
+  display: none;
 }
 .sel-2 .shadow-none{
-  background: none;
+  display: none;
 }
 .sel-3 .shadow-none{
-  background: none;
+  display: none;
 }
 .sel-4 .shadow-none{
-  background: none;
+  display: none;
 }
 .sel-5 .shadow-none{
-  background: none;
-}
-
-@keyframes bounce {
-  0% {
-    transform: translate3d(0, 0, 0);
-    text-shadow: rgba(#000, 45/100) 0 0 0.025*1em;
-  } 100% {
-    transform: translate3d(0, -1, 0);
-    text-shadow: rgba(#000, 45/100) 0 1 0.25*1em;
-  }
+  display: none;
 }
