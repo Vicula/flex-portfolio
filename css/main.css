@@ -225,7 +225,8 @@ body{
   margin-right: -50px;
 }
 .sel-4 .shadow-4{
-  background: none;
+  display: none;
+  transition: 1s;
 }
 .sel-4 .panel-5{
   z-index: 50;
@@ -331,7 +332,8 @@ body{
   background-size: cover;
 }
 .sel-2 .shadow-2{
-  background: none;
+  display: none;
+  transition: 1s;
 }
 .sel-2 .panel-3{
 
@@ -393,7 +395,8 @@ body{
   margin-right: -50px;
 }
 .sel-1 .shadow-1{
-  background: none;
+  display: none;
+  transition: 1s;
 }
 .sel-1 .panel-2{
   transform: skew(0deg, -10deg)rotate3d(0,1,0,-10deg);
@@ -451,7 +454,8 @@ body{
   /*margin-right: -50px;*/
 }
 .sel-5 .shadow-5{
-  background: none;
+  display: none;
+  transition: 1s;
 }
 .sel-5 .panel-4{
   transform: skew(0deg, 10deg)rotate3d(0,1,0,10deg);
