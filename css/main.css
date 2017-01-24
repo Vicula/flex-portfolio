@@ -11,6 +11,8 @@ body{
   background: black;
   font-family: 'Abril Fatface', cursive;
   color: white;
+  text-shadow: 2px 2px gray;
+
 }
 
 
@@ -201,6 +203,7 @@ body{
   /*transform: rotate3d(0,1,0,60deg);*/
   transform: skew(0deg, 10deg) rotate3d(0,1,0,10deg);
 }
+
 .sel-3 .shadow-2{
   background: linear-gradient(to left, rgba(10,10,10,0.9) 25%, rgba(0,0,0,0) 60%);
 }
@@ -604,7 +607,7 @@ body{
 }
 
 .home__sub-text{
-  font-size: 28px;
+  font-size: 30px;
   text-align: center;
   text-shadow: 1px 1px black;
 
@@ -628,6 +631,8 @@ body{
 }
 
 .home_tiles{
+  /*background: white;*/
+  padding: 10px;
   text-align: center;
   width: 33%;
   display: inline-block;
@@ -635,31 +640,51 @@ body{
 
 .abc1{
   /*display: inline-block;*/
-  position: relative;
-  bottom: 0;
+  /*position: relative;
+  bottom: 0;*/
   /*width: 30%;*/
-  background: goldenrod;
+  /*background: goldenrod;*/
   margin: 10px;
   cursor: pointer;
   padding: 10px;
+  text-shadow: none;
+  color:goldenrod;
   /*height: 1vh;*/
   float: left;
   font-weight: 900;
   font-size: 30px;
   border-radius: 100%;
+  margin-top: 50px;
 }
 .abc2{
-  /*display: inline-block;*/
-  position: relative;
-  bottom: 0;
-  /*width: 30%;*/
-  background: goldenrod;
   margin: 10px;
   cursor: pointer;
   padding: 10px;
+  text-shadow: none;
+  /*-webkit-text-stroke: 1px white;*/
+  color:goldenrod;
   /*height: 1vh;*/
   float: right;
   font-weight: 900;
   font-size: 30px;
   border-radius: 100%;
+  margin-top: 50px;
+
+}
+
+.abc2 i {
+  margin: 5px;
+}
+.abc1 i {
+  margin: 5px;
+}
+
+.innerText{
+  margin: 5px;
+}
+
+.home_tiles p {
+  text-shadow: 0.5px 0.5px black;
+  font-size: 19px;
+  /*color: #F1A9A0;*/
 }
