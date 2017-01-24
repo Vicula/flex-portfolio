@@ -9,7 +9,7 @@ body{
   padding: 0;
   overflow: hidden;
   background: black;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Abril Fatface', cursive;
   color: white;
 }
 
@@ -25,6 +25,16 @@ body{
   display: none;
   color: white;
   font-size: 40px;
+}
+
+.profPic{
+  background: url('../images/Victor 1_Fotor.jpg');
+  width: 20%;
+  height: 20vh;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -81,35 +91,65 @@ body{
   position: relative;
   top: 40%;
   font-size: 8vw;
-  left:33%;
+  left:40%;
+  display: none;
 }
 .icon-1{
   position: relative;
   top: 40%;
   font-size: 8vw;
-  left:33%;
+  left:40%;
+  display: none;
 }
 
 .icon-3{
   position: relative;
   top: 40%;
   font-size: 8vw;
-  left:33%;
+  left:40%;
+
   /*color: #47c994;*/
-  /*display: none;*/
+  display: none;
   /*animation: bounce 0.5s cubic-bezier(0.1, 0, 0.3, 1) infinite alternate;*/
 }
 .icon-4{
   position: relative;
   top: 40%;
   font-size: 8vw;
-  left:33%;
+  left:40%;
+  display: none;
 }
 .icon-5{
   position: relative;
   top: 40%;
   font-size: 8vw;
-  left:33%;
+  left:40%;
+  display: none;
+}
+
+.home .icon-3{
+  left: 33%;
+  display: inherit;
+}
+.home .icon-1{
+  left: 33%;
+  display: inherit;
+
+}
+.home .icon-2{
+  left: 33%;
+  display: inherit;
+
+}
+.home .icon-4{
+  left: 33%;
+  display: inherit;
+
+}
+.home .icon-5{
+  left: 33%;
+  display: inherit;
+
 }
 .home .panel:hover{
   background: radial-gradient(circle at center, rgba(255,255,255,1), rgba(175,175,175,1) );
@@ -548,4 +588,20 @@ body{
 }
 .sel-5 .shadow-none{
   display: none;
+}
+
+
+.home__title{
+  font-size: 100px;
+  text-align: center;
+  margin: 0;
+  color: goldenrod;
+  text-shadow: 2px 2px black;
+}
+
+.home__sub-text{
+  font-size: 28px;
+  text-align: center;
+  text-shadow: 1px 1px black;
+
 }
