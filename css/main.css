@@ -605,3 +605,23 @@ body{
   text-shadow: 1px 1px black;
 
 }
+
+.home__icon{
+  color: white;
+  font-size: 50px;
+}
+
+.icon-box{
+  padding: 30px;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  display: inline-block;
+  background: #859da1;
+  /*width: 20%;*/
+  /*margin: 15px;*/
+}
+
+.home_tiles{
+  text-align: center;
+  width: 33%;
+  display: inline-block;
+}
