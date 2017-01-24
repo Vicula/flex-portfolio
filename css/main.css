@@ -216,6 +216,8 @@ body{
   background-size: cover;
   z-index: 10000;
   align-self:center;
+  border: 5px solid white;
+  overflow: hidden;
 
 }
 .sel-3 .shadow-3{
@@ -263,6 +265,8 @@ body{
   margin-left: -50px;
   transition: 0.7s;
   margin-right: -50px;
+  border: 5px solid white;
+
 }
 .sel-4 .shadow-4{
   display: none;
@@ -612,6 +616,9 @@ body{
 }
 
 .icon-box{
+  text-shadow: 2px 2px black;
+
+  border: 10px solid gray;
   padding: 30px;
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   display: inline-block;
@@ -624,4 +631,35 @@ body{
   text-align: center;
   width: 33%;
   display: inline-block;
+}
+
+.abc1{
+  /*display: inline-block;*/
+  position: relative;
+  bottom: 0;
+  /*width: 30%;*/
+  background: goldenrod;
+  margin: 10px;
+  cursor: pointer;
+  padding: 10px;
+  /*height: 1vh;*/
+  float: left;
+  font-weight: 900;
+  font-size: 30px;
+  border-radius: 100%;
+}
+.abc2{
+  /*display: inline-block;*/
+  position: relative;
+  bottom: 0;
+  /*width: 30%;*/
+  background: goldenrod;
+  margin: 10px;
+  cursor: pointer;
+  padding: 10px;
+  /*height: 1vh;*/
+  float: right;
+  font-weight: 900;
+  font-size: 30px;
+  border-radius: 100%;
 }
