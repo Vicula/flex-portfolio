@@ -207,6 +207,9 @@ body{
 .sel-3 .shadow-2{
   background: linear-gradient(to left, rgba(10,10,10,0.9) 25%, rgba(0,0,0,0) 60%);
 }
+.sel-3 .panel-2 .panel-content {
+  display: none;
+}
 .sel-3 .panel-3{
   height: 95vh;
   margin-left: -60px;
@@ -395,6 +398,9 @@ body{
   width: 20%;
   height: 95vh;
 
+}
+.sel-2 .panel-3 .panel-content {
+  display: none;
 }
 .sel-2 .shadow-3{
   background: linear-gradient(to right, rgba(10,10,10,0.9) 25%, rgba(0,0,0,0) 60%);
@@ -634,8 +640,14 @@ body{
   /*background: white;*/
   padding: 10px;
   text-align: center;
-  width: 33%;
+  align-self: center;
+  width: 32%;
+  margin: auto;
   display: inline-block;
+}
+
+.tile-holder{
+  margin: auto;
 }
 
 .abc1{
@@ -644,47 +656,47 @@ body{
   bottom: 0;*/
   /*width: 30%;*/
   /*background: goldenrod;*/
-  margin: 10px;
+  margin: 0.25em;
   cursor: pointer;
-  padding: 10px;
+  padding: 1em;
   text-shadow: none;
   color:goldenrod;
   /*height: 1vh;*/
   float: left;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 2em;
   border-radius: 100%;
-  margin-top: 50px;
+  margin-top: 1em;
 }
 .abc2{
-  margin: 10px;
+  margin: 0.25em;
   cursor: pointer;
-  padding: 10px;
+  padding: 1em;
   text-shadow: none;
   /*-webkit-text-stroke: 1px white;*/
   color:goldenrod;
   /*height: 1vh;*/
   float: right;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 2em;
   border-radius: 100%;
-  margin-top: 50px;
+  margin-top: 1em;
 
 }
 
 .abc2 i {
-  margin: 5px;
+  margin: 0em;
 }
 .abc1 i {
-  margin: 5px;
+  margin: 0em;
 }
 
 .innerText{
-  margin: 5px;
+  margin: 0.5em;
 }
 
 .home_tiles p {
   text-shadow: 0.5px 0.5px black;
-  font-size: 19px;
+  font-size: 1em;
   /*color: #F1A9A0;*/
 }
