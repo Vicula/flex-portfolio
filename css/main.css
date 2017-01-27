@@ -191,6 +191,9 @@ body{
 .sel-3 .shadow-1{
   background: linear-gradient(to left, rgba(10,10,10,0.9) 25%, rgba(0,0,0,0) 60%);
 }
+.sel-3 .panel-1 .panel-content {
+  display: none;
+}
 .sel-3 .panel-2{
   z-index: 50;
   margin-right: -30px;
@@ -242,6 +245,9 @@ body{
   transform: skew(0deg, -10deg)rotate3d(0,1,0,-10deg);
 
 }
+.sel-3 .panel-4 .panel-content {
+  display: none;
+}
 .sel-3 .shadow-4{
   background: linear-gradient(to right, rgba(10,10,10,0.9) 25%, rgba(0,0,0,0) 60%);
 
@@ -257,6 +263,9 @@ body{
   background-size: cover;
   transform: skew(0deg, -20deg)rotate3d(0,1,0,-20deg);
 
+}
+.sel-3 .panel-5 .panel-content {
+  display: none;
 }
 .sel-3 .shadow-5{
   background: linear-gradient(to right, rgba(10,10,10,0.9) 25%, rgba(0,0,0,0) 60%);
@@ -285,6 +294,9 @@ body{
   height: 95vh;
   transform: skew(0deg, -10deg)rotate3d(0,1,0,-10deg);
 }
+.sel-4 .panel-5 .panel-content {
+  display: none;
+}
 .sel-4 .shadow-5{
   background: linear-gradient(to right, rgba(10,10,10,0.9) 25%, rgba(0,0,0,0) 60%);
 
@@ -295,6 +307,9 @@ body{
   width: 20%;
   height: 95vh;
   transform: skew(0deg, 10deg) rotate3d(0,1,0,10deg);
+}
+.sel-4 .panel-3 .panel-content {
+  display: none;
 }
 .sel-4 .shadow-3{
   background: linear-gradient(to left, rgba(10,10,10,0.9) 25%, rgba(0,0,0,0) 60%);
@@ -311,6 +326,9 @@ body{
   background: linear-gradient(to left, rgba(10,10,10,0.9) 25%, rgba(0,0,0,0) 60%);
 
 }
+.sel-4 .panel-2 .panel-content {
+  display: none;
+}
 .sel-4 .panel-1{
   z-index: 5;
   margin-right: -30px;
@@ -321,6 +339,9 @@ body{
 .sel-4 .shadow-1{
   background: linear-gradient(to left, rgba(10,10,10,0.9) 25%, rgba(0,0,0,0) 60%);
 
+}
+.sel-4 .panel-1 .panel-content {
+  display: none;
 }
 
 
@@ -368,6 +389,9 @@ body{
   background: linear-gradient(to left, rgba(10,10,10,0.9) 25%, rgba(0,0,0,0) 60%);
 
 }
+.sel-2 .panel-1 .panel-content {
+  display: none;
+}
 .sel-2 .panel-2{
   align-self:center;
   width: 55%;
@@ -380,6 +404,8 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border: 5px solid white;
+  overflow: hidden;
 }
 .sel-2 .shadow-2{
   display: none;
@@ -422,6 +448,9 @@ body{
   background: linear-gradient(to right, rgba(10,10,10,0.9) 25%, rgba(0,0,0,0) 60%);
 
 }
+.sel-2 .panel-4 .panel-content {
+  display: none;
+}
 .sel-2 .panel-5{
   z-index: 1;
   margin-left: -30px;
@@ -432,6 +461,9 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   transform: skew(0deg, -30deg)rotate3d(0,1,0,-30deg);
+}
+.sel-2 .panel-5 .panel-content {
+  display: none;
 }
 .sel-2 .shadow-5{
   background: linear-gradient(to right, rgba(10,10,10,0.9) 25%, rgba(0,0,0,0) 60%);
@@ -446,6 +478,8 @@ body{
   /*margin-left: -50px;*/
   transition: 0.7s;
   margin-right: -50px;
+  border: 5px solid white;
+  overflow: hidden;
 }
 .sel-1 .shadow-1{
   display: none;
@@ -457,6 +491,9 @@ body{
   margin-left: -30px;
   width: 20%;
   height: 95vh;
+}
+.sel-1 .panel-2 .panel-content {
+  display: none;
 }
 .sel-1 .shadow-2{
   background: linear-gradient(to right, rgba(10,10,10,0.9) 25%, rgba(0,0,0,0) 60%);
@@ -474,12 +511,18 @@ body{
   background: linear-gradient(to right, rgba(10,10,10,0.9) 25%, rgba(0,0,0,0) 60%);
 
 }
+.sel-1 .panel-3 .panel-content {
+  display: none;
+}
 .sel-1 .panel-4{
   z-index: 10;
   margin-left: -40px;
   width:10%;
   height: 80vh;
   transform: skew(0deg, -30deg)rotate3d(0,1,0,-30deg);
+}
+.sel-1 .panel-4 .panel-content {
+  display: none;
 }
 .sel-1 .shadow-4{
   background: linear-gradient(to right, rgba(10,10,10,0.9) 25%, rgba(0,0,0,0) 60%);
@@ -491,6 +534,9 @@ body{
   width:6%;
   height: 70vh;
   transform: skew(0deg, -35deg)rotate3d(0,1,0,-35deg);
+}
+.sel-1 .panel-5 .panel-content {
+  display: none;
 }
 .sel-1 .shadow-5{
   background: linear-gradient(to right, rgba(10,10,10,0.9) 25%, rgba(0,0,0,0) 60%);
@@ -504,6 +550,8 @@ body{
   z-index: 10000;
   margin-left: -50px;
   transition: 0.7s;
+  border: 5px white solid;
+  overflow: hidden;
   /*margin-right: -50px;*/
 }
 .sel-5 .shadow-5{
@@ -517,6 +565,9 @@ body{
   width: 20%;
   height: 95vh;
 }
+.sel-5 .panel-4 .panel-content {
+  display: none;
+}
 .sel-5 .shadow-4{
   background: linear-gradient(to left, rgba(10,10,10,0.9) 25%, rgba(0,0,0,0) 60%);
 
@@ -527,6 +578,9 @@ body{
   width: 13%;
   height: 88vh;
   transform: skew(0deg, 20deg)rotate3d(0,1,0,20deg);
+}
+.sel-5 .panel-3 .panel-content {
+  display: none;
 }
 .sel-5 .shadow-3{
   background: linear-gradient(to left, rgba(10,10,10,0.9) 25%, rgba(0,0,0,0) 60%);
@@ -539,6 +593,9 @@ body{
   height: 80vh;
   transform: skew(0deg, 30deg)rotate3d(0,1,0,30deg);
 }
+.sel-5 .panel-2 .panel-content {
+  display: none;
+}
 .sel-5 .shadow-2{
   background: linear-gradient(to left, rgba(10,10,10,0.9) 25%, rgba(0,0,0,0) 60%);
 
@@ -549,6 +606,9 @@ body{
   width:6%;
   height: 70vh;
   transform: skew(0deg, 35deg)rotate3d(0,1,0,35deg);
+}
+.sel-5 .panel-1 .panel-content {
+  display: none;
 }
 .sel-5 .shadow-1{
   background: linear-gradient(to left, rgba(10,10,10,0.9) 25%, rgba(0,0,0,0) 60%);
