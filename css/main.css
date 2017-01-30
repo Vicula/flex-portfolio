@@ -760,3 +760,7 @@ body{
   font-size: 1vw;
   /*color: #F1A9A0;*/
 }
+
+.skills-holder{
+  width: 100%;
+}
