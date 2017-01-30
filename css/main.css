@@ -229,6 +229,10 @@ body{
   overflow: hidden;
 
 }
+.sel-3 .panel-3 .panel-content{
+  background: radial-gradient(circle at center, rgba(175,175,175,0.7), rgba(175,175,175,0.2) );
+  height: 100%;
+}
 .sel-3 .shadow-3{
   display: none;
   transition: 1s;
@@ -282,6 +286,11 @@ body{
   margin-right: -50px;
   border: 5px solid white;
 
+}
+
+.sel-4 .panel-4 .panel-content{
+  background: radial-gradient(circle at center, rgba(175,175,175,0.7), rgba(175,175,175,0.2) );
+  height: 100%;
 }
 .sel-4 .shadow-4{
   display: none;
@@ -763,4 +772,50 @@ body{
 
 .skills-holder{
   width: 100%;
+  font-size: 0;
+  margin: 0.3vw;
+}
+
+.skill-tile{
+  display: inline-block;
+  margin: auto;
+  width: 30%;
+  padding: 0;
+  margin: 1.5%;
+  text-shadow: 0.2vw 0.2vw black;
+  text-align: center;
+
+  /*border: 1vw solid gray;
+  padding: 1vw;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  display: inline-block;
+  background: #859da1;*/
+  height: 9vw;
+
+}
+
+.skill-icon{
+  border: 1vw solid gray;
+  /*padding: 1vw;*/
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  display: inline-block;
+  background: #859da1;
+  text-align: center;
+  font-size: 3vw;
+  padding: 2vw;
+  width: 65%;
+  /*height: 5vw;*/
+}
+.skills__title{
+  text-shadow: 0.2vw 0.2vw black;
+  font-size: 5vw;
+  margin: 0;
+  text-align: center;
+  color: goldenrod;
+}
+.skills__sub-text{
+  font-size: 1.2vw;
+  text-shadow: 1px 1px black;
+
+  text-align: center;
 }
