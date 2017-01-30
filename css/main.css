@@ -818,6 +818,11 @@ body{
   width: 65%;
   /*height: 5vw;*/
 }
+
+.skill-icon:hover{
+  border: 1vw solid goldenrod;
+
+}
 .skills__title{
   text-shadow: 0.2vw 0.2vw black;
   font-size: 5vw;
@@ -829,6 +834,5 @@ body{
   font-size: 1.5vw;
   margin: 0 0.5vw;
   text-shadow: 1px 1px black;
-
   text-align: center;
 }
