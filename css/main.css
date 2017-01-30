@@ -836,3 +836,60 @@ body{
   text-shadow: 1px 1px black;
   text-align: center;
 }
+
+.project-row{
+  font-size: 0;
+  display: inline-block;
+  width: 100%;
+  padding: 0 5%;
+  margin-bottom: 0;
+}
+.project-1{
+  display: inline-block;
+  margin: 6%;
+  /*background: red;*/
+  width: 35%;
+  height: 15vw;
+  margin-bottom: 3%;
+  background: url("../images/cliqueUpAuth.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.project-2{
+  display: inline-block;
+  margin: 6%;
+  /*background: red;*/
+  width: 35%;
+  height: 15vw;
+  margin-bottom: 3%;
+  background: url("../images/Screen Shot 2017-01-17 at 9.13.01 AM.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.project-3{
+  display: inline-block;
+  margin: 6%;
+  /*background: red;*/
+  width: 35%;
+  height: 15vw;
+  margin-bottom: 3%;
+  background: url("../images/Screen Shot 2017-01-17 at 9.14.39 AM.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.project-4{
+  display: inline-block;
+  margin: 6%;
+  /*background: red;*/
+  width: 35%;
+  height: 15vw;
+  margin-bottom: 3%;
+  background: url("../images/Screen Shot 2017-01-17 at 9.16.21 AM.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
