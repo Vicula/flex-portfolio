@@ -26,7 +26,7 @@ body{
 .label{
   display: none;
   color: white;
-  font-size: 40px;
+  font-size: 15vw;
 }
 
 .profPic{
@@ -44,7 +44,7 @@ body{
   transition: 1s;
   width: 15%;
   align-self:auto;
-  box-shadow: inset 0 0 0 3px rgba(255,255,255,0.1);
+  box-shadow: inset 0 0 0 0.25vw rgba(255,255,255,0.1);
 
 }
 
@@ -665,15 +665,15 @@ body{
 
 
 .home__title{
-  font-size: 5em;
+  font-size: 7vw;
   text-align: center;
   margin: 0;
   color: goldenrod;
-  text-shadow: 2px 2px black;
+  text-shadow: 0.2vw 0.2vw black;
 }
 
 .home__sub-text{
-  font-size: 1.75em;
+  font-size: 2vw;
   text-align: center;
   text-shadow: 1px 1px black;
 
@@ -681,14 +681,14 @@ body{
 
 .home__icon{
   color: white;
-  font-size: 3em;
+  font-size: 3vw;
 }
 
 .icon-box{
-  text-shadow: 2px 2px black;
+  text-shadow: 0.2vw 0.2vw black;
 
-  border: 10px solid gray;
-  padding: 1.5em;
+  border: 1vw solid gray;
+  padding: 2vw;
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   display: inline-block;
   background: #859da1;
@@ -698,7 +698,7 @@ body{
 
 .home_tiles{
   /*background: white;*/
-  padding: 1em;
+  padding: 1vw;
   text-align: center;
   align-self: center;
   width: 32%;
@@ -716,7 +716,7 @@ body{
   bottom: 0;*/
   /*width: 30%;*/
   /*background: goldenrod;*/
-  margin: 0.25em;
+  margin: 1vw;
   cursor: pointer;
   /*padding: 1em;*/
   text-shadow: none;
@@ -724,12 +724,12 @@ body{
   /*height: 1vh;*/
   float: left;
   font-weight: 900;
-  font-size: 2em;
+  font-size: 2vw;
   border-radius: 100%;
-  margin-top: 1em;
+  margin-top: 2vw;
 }
 .abc2{
-  margin: 0.25em;
+  margin: 1vw;
   cursor: pointer;
   /*padding: 1em;*/
   text-shadow: none;
@@ -738,9 +738,9 @@ body{
   /*height: 1vh;*/
   float: right;
   font-weight: 900;
-  font-size: 2em;
+  font-size: 2vw;
   border-radius: 100%;
-  margin-top: 1em;
+  margin-top: 2vw;
 
 }
 
@@ -752,11 +752,11 @@ body{
 }
 
 .innerText{
-  margin: 0.5em;
+  margin: 1vw;
 }
 
 .home_tiles p {
-  text-shadow: 0.5px 0.5px black;
-  font-size: 1em;
+  text-shadow: 0.1vw 0.1vw black;
+  font-size: 1vw;
   /*color: #F1A9A0;*/
 }
