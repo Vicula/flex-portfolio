@@ -226,7 +226,7 @@ body{
   background-size: cover;
   z-index: 10000;
   align-self:center;
-  border: 5px solid white;
+  /*border: 5px solid white;*/
   overflow: hidden;
 
 }
@@ -929,27 +929,78 @@ body{
   top: 22vh;
   position: relative;
   z-index: 1000;
-  min-height: 7vw;
+  height: 10vw;
+  max-height: 20vw;
   width: 100vw;
   background: white;
-  left: -15vw;
+  left: -40vw;
 }
 
 .angled-bar2{
-  transform: rotate(-20deg);
+  transform: rotate(-13deg);
   top: 5vh;
   position: relative;
   z-index: 1000;
-  min-height: 5vw;
+  min-height: 10vw;
   width: 100vw;
   background: white;
-  left: 5vw;
+  left: -7vw;
 }
 .panel-content-test{
   position: relative;
-  top: -2.5vh;
+  top: -7vh;
   width: 100%;
-  height: 80vh;
-  background: white;
+  height: 100vh;
+  background: linear-gradient(to top, rgba(180,180,180,1) , #fff);
   z-index: 1100;
+}
+
+.panel-3__icon{
+  color: rgba(76, 147, 6, 0.3);
+  text-shadow: none;
+  font-size: 30vw;
+  position: relative;
+  top: 20vh;
+  left: -5vw;
+}
+
+.under-panel{
+  top: 0;
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+}
+
+.test2{
+  position: relative;
+  font-size: 70px;
+  color: #ECECEC;
+  font-family: 'Julius Sans One', sans-serif;
+  /*top: -10vh;*/
+  z-index: 2;
+  text-shadow: 0px 11px 2px rgba(45, 45, 45, 1);
+}
+.test3{
+  padding-top: 2vh;
+  font-family: 'Julius Sans One', sans-serif;
+  color: darkgray;
+  text-shadow: none;
+
+}
+.test1{
+  color: black;
+  z-index: 2;
+  font-family: inherit;
+  text-shadow: none;
+  padding-top: 50px;
+}
+
+.top-panel{
+
+  z-index: 100;
+  position: relative;
+  text-align: center;
+  padding: 5vw;
+  padding-top: 0;
+  top: -30vh;
 }
