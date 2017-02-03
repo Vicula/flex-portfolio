@@ -233,6 +233,7 @@ body{
 .sel-3 .panel-3 .panel-content{
   background: radial-gradient(circle at center, rgba(175,175,175,0.5), rgba(175,175,175,0.2) );
   height: 100%;
+  overflow: hidden;
 }
 .sel-3 .shadow-3{
   display: none;
@@ -919,4 +920,36 @@ body{
   height: 50vh;
   background-repeat: no-repeat;
    /*-webkit-mask-image:-webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));*/
+}
+
+
+
+.angled-bar1{
+  transform: rotate(12deg);
+  top: 22vh;
+  position: relative;
+  z-index: 1000;
+  min-height: 7vw;
+  width: 100vw;
+  background: white;
+  left: -15vw;
+}
+
+.angled-bar2{
+  transform: rotate(-20deg);
+  top: 5vh;
+  position: relative;
+  z-index: 1000;
+  min-height: 5vw;
+  width: 100vw;
+  background: white;
+  left: 5vw;
+}
+.panel-content-test{
+  position: relative;
+  top: -2.5vh;
+  width: 100%;
+  height: 80vh;
+  background: white;
+  z-index: 1100;
 }
