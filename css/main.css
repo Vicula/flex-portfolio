@@ -415,12 +415,14 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 5px solid white;
+  /*border: 5px solid white;*/
   overflow: hidden;
 }
 .sel-2 .panel-2 .panel-content{
   background: radial-gradient(circle at center, rgba(175,175,175,0.5), rgba(175,175,175,0.2) );
   height: 100%;
+  font-size: 0;
+  z-index: 1;
 }
 .sel-2 .shadow-2{
   display: none;
@@ -933,7 +935,8 @@ body{
   max-height: 20vw;
   width: 100vw;
   background: white;
-  left: -40vw;
+  left: 0;
+  margin-left: -40vw;
 }
 
 .angled-bar2{
@@ -973,7 +976,9 @@ body{
 
 .test2{
   position: relative;
-  font-size: 70px;
+  padding-top: 2vh;
+
+  font-size: 5vw;
   color: #ECECEC;
   font-family: 'Julius Sans One', sans-serif;
   /*top: -10vh;*/
@@ -991,13 +996,14 @@ body{
 }
 .test1{
   font-family: 'Julius Sans One', sans-serif;
-  text-align: left;
+  /*text-align: left;*/
   color: black;
   z-index: 2;
+  font-size: 1.1vw;
   font-weight: bold;
   /*font-family: inherit;*/
   text-shadow: none;
-  /*padding-top: 50px;*/
+  padding-top: 2vh;
 }
 
 .top-panel{
@@ -1030,4 +1036,52 @@ body{
   padding-top: 2vh;
   width: 100%;
   font-size: 0;
+}
+
+.proj-box1{
+  width: 20%;
+  display: inline-block;
+  height: 100vh;
+  z-index: 1;
+}
+.proj-box{
+  /*position: absolute;*/
+  width: 70%;
+  margin: 0;
+  display: inline-block;
+  height: 100vh;
+  z-index: 2000000;
+  background: linear-gradient(to left, #fff, #ffffff);
+
+}
+
+.proj-angle1{
+  position: relative;
+  top: -45vh;
+  left: 5vh;
+  /*margin-top: -100vh;*/
+  width: 30%;
+  display: inline-block;
+  height: 100vh;
+  z-index: 1;
+  background: white;
+  transform: rotate(-40deg);
+}
+
+.proj-under{
+  top: 0;
+  position: absolute;
+  bottom: 0;
+  width: 38vw;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.panel-2__icon{
+  color: rgba(181, 131, 76, 0.1);
+  text-shadow: none;
+  font-size: 25vw;
+  position: relative;
+  top: 0vh;
+  left: 20vw;
 }
